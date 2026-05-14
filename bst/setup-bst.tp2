@@ -138,6 +138,10 @@ LANGUAGE ~German~ ~german~ ~bst/language/english/bst_setup.tra~
 
 */
 
+LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~
+         ~polish~
+         ~bst/language/polish/bst_setup.tra~
+
 // Quest title
 BEGIN @1
 DESIGNATED 0
@@ -1146,15 +1150,15 @@ WRITE_ASCII 0x2cc ~bstq010~ #8
 	WRITE_ASCII 0x280 ~bsdpgrd5~ #32
 	WRITE_ASCII 0x248 ~bsdpgrd5~ #8
 //quest relevant Doppelganger (hostile)
-//doppelg‰ngers in Seatower Commander's office
+//doppelg√§ngers in Seatower Commander's office
 	COPY ~bst/cre/bsdopp02.cre~ ~override/bsdopp02.cre~
 	COPY ~bst/cre/bsdopp03.cre~ ~override/bsdopp03.cre~
-//doppelg‰ngers for smugglers beneath tailor shop
+//doppelg√§ngers for smugglers beneath tailor shop
 	COPY ~bst/cre/bsdopp02.cre~ ~override/bsdopp04.cre~
 	WRITE_ASCII 0x280 ~bsdopp04~ #32
 	COPY ~bst/cre/bsdopp03.cre~ ~override/bsdopp05.cre~
 	WRITE_ASCII 0x280 ~bsdopp05~ #32
-//doppelg‰nger for tailor (has key)
+//doppelg√§nger for tailor (has key)
 	COPY ~bst/cre/bsdopp02.cre~ ~override/bsdopp06.cre~
 	WRITE_ASCII 0x280 ~bstailor~ #32
   ADD_CRE_ITEM ~bstaikey~ #1 #0 #0 ~identified&unstealable~ ~inv1~
@@ -2084,8 +2088,8 @@ COPY_EXISTING ~YS0119.are~ ~override~
     fj_type         = 0    //trap
     fj_box_left    = 302  //kleinstes x
     fj_box_top     = 343   //kleinstes y
-    fj_box_right   = 411  //grˆﬂtes x 
-    fj_box_bottom  = 442 //grˆﬂtes y
+    fj_box_right   = 411  //gr√∂√ütes x 
+    fj_box_bottom  = 442 //gr√∂√ütes y
     fj_loc_x       = 354
     fj_loc_y       = 365
     fj_vertex_0    = 320 + (442 << 16) 
