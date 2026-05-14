@@ -1,0 +1,32 @@
+@8000 = ~Z³oty dysk~
+//@8001 = ~Z³oty dysk~
+@8002 = ~Na pierwszy rzut oka ten z³oty dysk przypomina ogromn¹ monetê, ale jest zdecydowanie zbyt wielki, by móg³ s³u¿yæ za staro¿ytn¹ walutê. Na jego awersie rozpoznajesz wyt³oczony pentagram. Przedmiot wygl¹da na licz¹cy setki lat i wydaje siê byæ niezwykle cenny.~
+//@8003 = ~Na pierwszy rzut oka ten z³oty dysk przypomina ogromn¹ monetê, ale jest zdecydowanie zbyt wielki, by móg³ s³u¿yæ za staro¿ytn¹ walutê. Na jego awersie rozpoznajesz wyt³oczony pentagram. Przedmiot wygl¹da na licz¹cy setki lat i wydaje siê byæ niezwykle cenny.~
+@8004 = ~Miecz d³ugi +3~
+@8005 = ~Miecze te nazywa siê zwykle mieczami obusiecznymi, wojennymi lub wojskowymi. Broñ brzêczy cicho w twoich d³oniach, co œwiadczy o jej magicznych w³aœciwoœciach.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+OpóŸnienie: 2
+Rodzaj bieg³oœci: d³ugi miecz
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 2~
+@8006 = ~Bezb³êdna teleportacja~
+@8100 = ~Otiag~
+@8101 = ~Otiag~
+@8200 = ~Zabierasz ostatni¹ monetê i czujesz, ¿e jakaœ pieczêæ w³aœnie zosta³a z³amana.~
+@8201 = ~Napiêcie w pomieszczeniu gwa³townie roœnie. Masz powa¿ne w¹tpliwoœci, czy zabranie ostatniej monety to dobry pomys³.~
+@8203 = ~Z tej odleg³oœci nie potrafisz niczego odczytaæ.~
+@8204 = ~Staro¿ytne runy poœrodku tego heptagramu g³osz¹: 
+„Siedem run i dysków œwiêtych
+szeœæ – do odnalezienia
+na krawêdziach do po³o¿enia,
+by siódm¹ ca³oœæ spêtaæ”.~
+@8205 = ~Ten wielki heptagram pokryty jest tajemniczymi runami, których nie potrafisz rozszyfrowaæ.~
