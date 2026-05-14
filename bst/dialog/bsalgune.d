@@ -208,20 +208,20 @@ IF ~~ THEN BEGIN 31
 	SAY @2158
 	IF ~Global("bsAboutDemon","LOCALS",0)~ THEN REPLY @2159 DO ~SetGlobal("bsAboutDemon","LOCALS",1)~ GOTO 32
 	IF ~Global("bsAboutUlf","LOCALS",0)~ THEN REPLY @2335 DO ~SetGlobal("bsAboutDeman","LOCALS",1)~ + 32.1
-	IF~~THEN REPLY ~Now what?~ + 32.2
+	IF~~THEN REPLY @2337 + 32.2
 END
 
 //---------------------------------------------------------
 IF ~~ THEN BEGIN 32
 	SAY @2160
 	IF ~Global("bsAboutUlf","LOCALS",0)~ THEN REPLY @2335 DO ~SetGlobal("bsAboutDeman","LOCALS",1)~ + 32.1
-	IF~~THEN REPLY ~Now what?~ + 32.2
+	IF~~THEN REPLY @2337 + 32.2
 END
 
 IF ~~ THEN BEGIN 32.1
 	SAY @2334
 	IF ~Global("bsAboutDemon","LOCALS",0)~ THEN REPLY @2159 DO ~SetGlobal("bsAboutDemon","LOCALS",1)~ GOTO 32
-	IF~~THEN REPLY ~Now what?~ + 32.2
+	IF~~THEN REPLY @2337 + 32.2
 END
 
 IF ~~ THEN BEGIN 32.2

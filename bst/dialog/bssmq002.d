@@ -15,7 +15,7 @@ END
 
 IF ~~ THEN box_02
 SAY @1516
-+ ~Global("bsSMQOpenedBox","GLOBAL",0)~ + ~Break the seal and open the box.~ + box_04
++ ~Global("bsSMQOpenedBox","GLOBAL",0)~ + @1520 + box_04
 + ~Global("bsSMQOpenedBox","GLOBAL",1) Global("bsSMQAteFigs","GLOBAL",0)~ + @1513 + box_03
 ++ @1514 + box_01
 END
